@@ -1,0 +1,26 @@
+{
+  "name": "gbook",
+  "version": "1.0.0",
+  "description": "An attempt to create my first gitbook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberzzhhss/gbook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyberzzhhss/gbook/issues"
+  },
+  "homepage": "https://github.com/cyberzzhhss/gbook#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-load-plugins": "^2.0.7"
+  },
+  "serve": "gitbook serve",
+  "publish": "node_modules/.bin/gulp publish"
+}
